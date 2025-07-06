@@ -1,8 +1,8 @@
-# ROS2 Robotics Project
+## ROS2 Robotics Project
 
 This repository contains a complete robotics project developed using **ROS2 (Robot Operating System 2)**. The project showcases intelligent autonomous system design, integrating navigation, perception, and control within a ROS2 workspace.
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 * `src/` - Source code and ROS2 packages
 * `launch/` - Launch files for bringing up the system
@@ -20,24 +20,35 @@ This repository contains a complete robotics project developed using **ROS2 (Rob
 
 1. Clone this repository:
 
-   ```bash
-   https://github.com/Zendron12/ros2_robotics_project-.git
-   ```
+```bash
+git clone https://github.com/Zendron12/ros2_robotics_project-.git
+```
+
 2. Build the workspace:
 
-   ```bash
-   colcon build
-   ```
+```bash
+colcon build
+```
+
 3. Source the setup file:
 
-   ```bash
-   source install/setup.bash
-   ```
+```bash
+source install/setup.bash
+```
+
 4. Launch the system:
 
-   ```bash
-   ros2 launch your_package your_launch_file.launch.py
-   ```
+```bash
+ros2 launch your_package your_launch_file.launch.py
+```
+
+## 🖼️ Simulation Screenshots
+
+![Simulation 1](https://github.com/Zendron12/ros2_robotics_project-/blob/main/images/image.png?raw=true)
+
+![Simulation 2](https://github.com/Zendron12/ros2_robotics_project-/blob/main/images/image2.png?raw=true)
+
+![Simulation 3](https://github.com/Zendron12/ros2_robotics_project-/blob/main/images/image3.png?raw=true)
 
 ## 📌 Requirements
 
@@ -45,10 +56,10 @@ This repository contains a complete robotics project developed using **ROS2 (Rob
 * Colcon
 * Python 3.x
 
-## 📝 License
+## 📄 License
 
-This project is licensed under the **MIT License** — see the LICENSE file for details.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-## 👤 Author
+## ✍️ Author
 
 Hesham — Student at The Hashemite University, passionate about Big Data, AI, and Robotics.
