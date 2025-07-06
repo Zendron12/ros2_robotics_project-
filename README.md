@@ -1,20 +1,24 @@
 ## ROS2 Robotics Project
 
-This repository contains a complete robotics project developed using **ROS2 (Robot Operating System 2)**. The project showcases intelligent autonomous system design, integrating navigation, perception, and control within a ROS2 workspace.
+This repository contains a complete robotics project developed using **ROS2 (Robot Operating System 2)**. The project focuses on manual teleoperation of a robot model, allowing a human operator to control the robot's movement and actions within a ROS2 workspace.
 
 ## 📁 Project Structure
 
-* `src/` - Source code and ROS2 packages
+* `src/` - Contains custom ROS2 packages including:
+
+  * `my_robot_description/` — URDF files and robot model definitions
+  * `my_robot_bringup/` — Launch files and configuration for starting the robot
+  * `my_robot_control/` — Custom ROS2 nodes for robot control logic
 * `launch/` - Launch files for bringing up the system
 * `CMakeLists.txt` - Build configuration
 * `package.xml` - ROS2 package metadata
 
 ## 🚀 Features
 
-* ROS2 nodes for robot control and perception
-* Launch files for easy startup of the robot system
-* Modular design for scalability and reuse
-* Compatible with standard ROS2 distributions
+* ROS2 nodes for manual robot control and simulation
+* Structured launch system for easy startup
+* Modular and scalable package design
+* Tested with ROS2 Humble
 
 ## 💡 Usage
 
@@ -39,7 +43,7 @@ source install/setup.bash
 4. Launch the system:
 
 ```bash
-ros2 launch your_package your_launch_file.launch.py
+ros2 launch my_robot_bringup bringup.launch.py
 ```
 
 ## 🖼️ Simulation Screenshots
@@ -52,7 +56,7 @@ ros2 launch your_package your_launch_file.launch.py
 
 ## 📌 Requirements
 
-* ROS2 (Foxy, Galactic, or later)
+* ROS2 (Humble or later)
 * Colcon
 * Python 3.x
 
